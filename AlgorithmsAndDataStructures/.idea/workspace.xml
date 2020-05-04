@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a34a9339-950e-47f8-9a94-682eb6fd1a4c" name="Default Changelist" comment="" />
+    <list default="true" id="a34a9339-950e-47f8-9a94-682eb6fd1a4c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/bambino/grandi/homefork2/HomeWork2Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/bambino/grandi/queue/DeQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/bambino/grandi/queue/DequeueImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/bambino/grandi/queue/PriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/bambino/grandi/queue/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/bambino/grandi/queue/QueueImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/bambino/grandi/stack/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/bambino/grandi/stack/StackImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,10 +27,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1bFhESA9GK2KwpBB5a1e9g2ULsR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="B:/GeekBrains/GeekBrains_ADS_2020_04_23" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -33,7 +50,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainArray">
+  <component name="RunManager" selected="Application.HomeWork2Main">
+    <configuration name="HomeWork2Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.bambino.grandi.homefork2.HomeWork2Main" />
+      <module name="AlgorithmsAndDataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.bambino.grandi.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="ru.bambino.grandi.comparesorts.Main" />
       <module name="AlgorithmsAndDataStructures" />
@@ -60,9 +90,11 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.MainArray" />
+      <item itemvalue="Application.HomeWork2Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HomeWork2Main" />
         <item itemvalue="Application.MainArray" />
       </list>
     </recent_temporary>
@@ -79,5 +111,18 @@
       <updated>1588233636991</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
