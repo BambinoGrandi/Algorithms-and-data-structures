@@ -1,4 +1,4 @@
-package ru.bambino.grandi.queue;
+package ru.bambino.grandi.homefork2.queue;
 
 public interface DeQueue<E> {
 

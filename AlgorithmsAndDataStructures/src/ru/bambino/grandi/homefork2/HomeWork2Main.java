@@ -1,5 +1,5 @@
 package ru.bambino.grandi.homefork2;
-import ru.bambino.grandi.queue.DequeueImpl;
+import ru.bambino.grandi.homefork2.queue.DequeueImpl;
 
 import ru.bambino.grandi.stack.StackImpl;
 import ru.bambino.grandi.stack.Stack;

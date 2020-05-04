@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a34a9339-950e-47f8-9a94-682eb6fd1a4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/bambino/grandi/homefork2/HomeWork2Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/bambino/grandi/queue/DeQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/bambino/grandi/queue/DequeueImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/bambino/grandi/queue/PriorityQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/bambino/grandi/queue/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/bambino/grandi/queue/QueueImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/bambino/grandi/stack/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/bambino/grandi/stack/StackImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/bambino/grandi/homefork2/HomeWork2Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/bambino/grandi/homefork2/HomeWork2Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/bambino/grandi/queue/DeQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/bambino/grandi/homefork2/queue/DeQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/bambino/grandi/queue/DequeueImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/bambino/grandi/homefork2/queue/DequeueImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/bambino/grandi/queue/PriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/bambino/grandi/homefork2/queue/PriorityQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/bambino/grandi/queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/bambino/grandi/homefork2/queue/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/bambino/grandi/queue/QueueImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/bambino/grandi/homefork2/queue/QueueImpl.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +52,7 @@
       <module name="AlgorithmsAndDataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.bambino.grandi.queue.*" />
+          <option name="PATTERN" value="ru.bambino.grandi.homefork2.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

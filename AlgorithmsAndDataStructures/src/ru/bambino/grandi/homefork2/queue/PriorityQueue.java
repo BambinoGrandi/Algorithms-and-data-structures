@@ -1,6 +1,4 @@
-package ru.bambino.grandi.queue;
-
-import ru.bambino.grandi.queue.QueueImpl;
+package ru.bambino.grandi.homefork2.queue;
 
 public class PriorityQueue<E extends Object & Comparable<? super E>> extends QueueImpl<E> {
     public PriorityQueue(int maxSize) {
