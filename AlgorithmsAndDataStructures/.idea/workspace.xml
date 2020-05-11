@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a34a9339-950e-47f8-9a94-682eb6fd1a4c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/ru/bambino/grandi/homefork2/HomeWork2Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/bambino/grandi/homefork2/HomeWork2Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/bambino/grandi/queue/DeQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/bambino/grandi/homefork2/queue/DeQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/bambino/grandi/queue/DequeueImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/bambino/grandi/homefork2/queue/DequeueImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/bambino/grandi/queue/PriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/bambino/grandi/homefork2/queue/PriorityQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/bambino/grandi/queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/bambino/grandi/homefork2/queue/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/bambino/grandi/queue/QueueImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/bambino/grandi/homefork2/queue/QueueImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/bambino/grandi/homework4/ListIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmsAndDataStructures/ru/bambino/grandi/homefork2/HomeWork2Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmsAndDataStructures/ru/bambino/grandi/homefork2/HomeWork2Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmsAndDataStructures/ru/bambino/grandi/queue/DeQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmsAndDataStructures/ru/bambino/grandi/queue/DequeueImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmsAndDataStructures/ru/bambino/grandi/queue/PriorityQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmsAndDataStructures/ru/bambino/grandi/queue/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmsAndDataStructures/ru/bambino/grandi/queue/QueueImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/bambino/grandi/homework3/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/bambino/grandi/homework4/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/bambino/grandi/homework3/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/bambino/grandi/homework4/LinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/bambino/grandi/homework3/ListIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/bambino/grandi/homework3/SimpleLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/bambino/grandi/homework4/SimpleLinkedListImpl.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -32,7 +38,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="B:/GeekBrains/GeekBrains_ADS_2020_04_23" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.bambino.grandi.linkedlist" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -46,13 +57,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HomeWork2Main">
+  <component name="RunManager" selected="Application.LinkedListTest">
     <configuration name="HomeWork2Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.bambino.grandi.homefork2.HomeWork2Main" />
       <module name="AlgorithmsAndDataStructures" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.bambino.grandi.homefork2.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.bambino.grandi.homework4.LinkedListTest" />
+      <module name="AlgorithmsAndDataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.bambino.grandi.homework4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,9 +111,11 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.MainArray" />
       <item itemvalue="Application.HomeWork2Main" />
+      <item itemvalue="Application.LinkedListTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedListTest" />
         <item itemvalue="Application.HomeWork2Main" />
         <item itemvalue="Application.MainArray" />
       </list>

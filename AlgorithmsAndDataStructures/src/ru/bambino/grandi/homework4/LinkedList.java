@@ -1,4 +1,4 @@
-package ru.bambino.grandi.linkedlist;
+package ru.bambino.grandi.homework4;
 
 public interface LinkedList<E> extends Iterable<E>{
 

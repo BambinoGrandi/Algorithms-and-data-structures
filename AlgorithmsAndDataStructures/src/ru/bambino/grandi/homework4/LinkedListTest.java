@@ -1,4 +1,4 @@
-package ru.bambino.grandi.linkedlist;
+package ru.bambino.grandi.homework4;
 
 public class LinkedListTest {
 
@@ -32,11 +32,25 @@ public class LinkedListTest {
             System.out.println(integer);
         }
 
-        linkedList.iterator();
+        ListIterator<Integer> iterator = (ListIterator<Integer>) linkedList.iterator();
+        print(linkedList);
+        iterator.reset();
+        iterator.insertAfter(2);
+        print(linkedList);
+        iterator.insertBefore(54);
+        print(linkedList);
 
 
 
 
+    }
+
+    private static void print(LinkedList<Integer> value){
+        System.out.println("------------");
+        for (Integer integer : value) {
+            System.out.println(integer);
+        }
+        System.out.println("----------");
     }
 
 }

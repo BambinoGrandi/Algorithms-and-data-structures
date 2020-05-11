@@ -1,7 +1,6 @@
-package ru.bambino.grandi.linkedlist;
+package ru.bambino.grandi.homework4;
 
 import java.util.Iterator;
-import java.util.ListIterator;
 
 public class SimpleLinkedListImpl<E> implements LinkedList<E> {
 
@@ -19,7 +18,7 @@ public class SimpleLinkedListImpl<E> implements LinkedList<E> {
 
     @Override
     public E removeFirst() {
-        if (isEmpty()){
+        if (isEmpty()) {
             return null;
         }
 
@@ -33,7 +32,7 @@ public class SimpleLinkedListImpl<E> implements LinkedList<E> {
     public boolean remove(E value) {
         Entry<E> current = firstElement;
         Entry<E> previous = null;
-        while(current != null){
+        while (current != null) {
             if (current.value.equals(value)) break;
             previous = current;
             current = current.next;
@@ -51,7 +50,7 @@ public class SimpleLinkedListImpl<E> implements LinkedList<E> {
     @Override
     public boolean contains(E value) {
         Entry<E> current = firstElement;
-        while (current != null){
+        while (current != null) {
             if (current.value.equals(value)) return true;
             current = current.next;
         }
@@ -67,7 +66,7 @@ public class SimpleLinkedListImpl<E> implements LinkedList<E> {
     public void display() {
         System.out.println("****************");
         Entry<E> current = firstElement;
-        while (current != null){
+        while (current != null) {
             System.out.println(current.value);
             current = current.next;
         }
@@ -91,7 +90,7 @@ public class SimpleLinkedListImpl<E> implements LinkedList<E> {
         return new IteratorList<>(this);
     }
 
-    private class IteratorList<E> implements Iterator<E> {
+    private static class IteratorList<E> implements ListIterator<E> {
 
         private final SimpleLinkedListImpl<E> list;
 
@@ -103,47 +102,44 @@ public class SimpleLinkedListImpl<E> implements LinkedList<E> {
             this.reset();
         }
 
-       public boolean atEnd(){
-            return (current.next == null);
-       }
-
-
-       public void insertAfter(E value){
+        @Override
+        public void insertAfter(E value) {
             Entry<E> newValue = new Entry<>(value);
-            if (list.isEmpty()){
+            if (list.isEmpty()) {
                 list.firstElement = newValue;
                 current = newValue;
-            }else{
+            } else {
                 newValue.next = current.next;
                 current.next = newValue;
                 next();
             }
-       }
+        }
 
-       public void insertBefore(E value){
+        @Override
+        public void insertBefore(E value) {
             Entry<E> newValue = new Entry<>(value);
-            if (previous == null){
+            if (previous == null) {
                 newValue.next = list.firstElement;
                 list.firstElement = newValue;
                 reset();
-            }else{
+            } else {
                 newValue.next = previous.next;
                 previous.next = newValue;
                 current = newValue;
             }
-       }
+        }
 
-       public void remove(){
-            if (previous == null){
+        public void remove() {
+            if (previous == null) {
                 list.firstElement = current.next;
                 reset();
-            }else {
+            } else {
                 previous.next = current.next;
 
                 if (!hasNext()) reset();
                 else current = current.next;
             }
-       }
+        }
 
         @Override
         public boolean hasNext() {
@@ -159,6 +155,7 @@ public class SimpleLinkedListImpl<E> implements LinkedList<E> {
             return nextValue;
         }
 
+        @Override
         public void reset() {
             current = list.firstElement;
             previous = null;
